@@ -1,6 +1,6 @@
 <template>
   <div class="w-full bg-violet-950">
-    <h1 class="text-5xl text-gray-50 font-semibold p-8">Страница главных новостей</h1>
+    <h1 class="text-5xl text-gray-50 font-semibold p-8">Новое за сегодня</h1>
   </div>
   <!-- the card  -->
 
@@ -15,7 +15,10 @@
     <div class="bg-indigo-500 p-4 rounded-lg">07</div>
     <div class="bg-indigo-500 p-4 rounded-lg">08</div>
   </div>
-     
+    
+  <div class="m-9">
+    asd
+  </div>
 </template>
 
 <script setup>
