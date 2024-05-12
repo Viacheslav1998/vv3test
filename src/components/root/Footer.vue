@@ -1,6 +1,6 @@
 <template>
   <div class="bg-cyan-950 h-[400px]">
-     <p class="text-stone-50">Ваш контент здесь</p>
+     <p class="text-stone-50">подвал тут</p>
   </div>
 </template>
 

@@ -22,13 +22,4 @@ export default {
 </script>
 
 <style>
-.interest {
-  color: red;
-}
-.test-space {
-  background: orange; 
-  padding: 20px;
-  margin: 20px;
-  border-radius: 20px;
-}
 </style>
