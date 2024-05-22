@@ -1,23 +1,25 @@
 <template>
   <div>
-    <div class="wrapper-menu flex flex-row bg-gray-300">
-  	  <div class="logo p-5 bg-cyan-950 basis-1/4 flex flex-row-reverse">	
-        <h2 class="text-2xl font-sans text-orange-300 font-bold">XP-SERIOUS</h2>
-        <img src="../../../public/images/p4.png" alt="logo" class="pr-2">
+    <div class="wrapper-menu bg-gray-300">
+  	  <div class="logo p-[35px] bg-slate-800 min-w-[450px] flex">	
+  	  	<img src="/images/p4.png" alt="logo" class="pr-2 max-w-[28px] max-h-[22px]">
+        <h2 class="font-sans text-xl text-orange-300 font-bold">XP-SERIOUS</h2>
       </div>
+
 	  <div class="nav">
-	    <ul class="flex flex-row basis-1/2 p-5">
-	      <li class="pl-20"><p class="text-lg">Desing</p></li>
-		  <li class="pl-20"><p class="text-lg">Services</p></li>
-		  <li class="pl-20"><p class="text-lg">Our Business</p></li>
-		  <li class="pl-20"><p class="text-lg">How We Help</p></li>
-		  <li class="pl-20"><p class="text-lg">Take The Tour</p></li>
-		  <li class="pl-20"><p class="text-lg">Contact</p></li>
+	    <ul class="flex flex-row w-full p-5">
+	      <li class="pl-5"><p class="text-lg hover:text-stone-600 cursor-pointer">Desing</p></li>
+		  <li class="pl-5"><p class="text-lg hover:text-stone-600 cursor-pointer">Services</p></li>
+		  <li class="pl-5"><p class="text-lg hover:text-stone-600 cursor-pointer">Our Business</p></li>
+		  <li class="pl-5"><p class="text-lg hover:text-stone-600 cursor-pointer">How We Help</p></li>
+		  <li class="pl-5"><p class="text-lg hover:text-stone-600 cursor-pointer">Take The Tour</p></li>
+		  <li class="pl-5"><p class="text-lg hover:text-stone-600 cursor-pointer">Contact</p></li>
 	    </ul>
 	  </div>
     </div>
   </div>
 </template>
+<!-- задача переместить меню ниже -->
 
 <script>
 </script>
