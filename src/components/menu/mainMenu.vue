@@ -3,7 +3,7 @@
     <div class="wrapper-menu bg-gray-300">
   	  <div class="logo p-[35px] bg-slate-800 min-w-[450px] flex">	
   	  	<img src="/images/p4.png" alt="logo" class="pr-2 max-w-[28px] max-h-[22px]">
-        <h2 class="font-sans text-xl text-orange-300 font-bold">XP-SERIOUS</h2>
+        <h2 class="font-sans text-xl text-orange-300 font-bold">{{ title }}</h2>
       </div>
 
 	  <div class="nav">
@@ -18,10 +18,32 @@
 	  </div>
     </div>
   </div>
+  <div v-for="(item, index) in menu" :key="index">
+  	<h1>{{ item }}</h1>
+  </div>
 </template>
-<!-- задача переместить меню ниже -->
 
-<script>
+<script setup>
+  const menu = [
+    "Design", 
+    "Services", 
+    "Our Business",
+    "How We Help",
+    "Take The Tour",
+    "Contact"
+  ];
+
+  const title = "XP-SERIOUS";
+
+
 </script>
+ 
 <style>
 </style>
+
+<!-- 
+наша цель 
+массив 
+перебрать ссылки для меню (что то типо cms)
+script setup <===
+-->
