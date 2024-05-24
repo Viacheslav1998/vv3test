@@ -19,14 +19,14 @@
     </div>
   </div>
   <!-- just training -->
-  <testComponent
-    :news=specialTestProp
+  <Special
+    :news=special
   />
   <!-- поменеяй на блок новостей -->
 </template>
 
 <script setup>
-  import testComponent from '../tests/testComponent.vue';
+  import Special from '../news/Special.vue';
 
   /*use axios*/
   const menu = [
@@ -39,7 +39,7 @@
   ];
   /*title*/
   const title = "XP-SERIOUS"; 
-  const specialTestProp = "value special test absolute";
+  const special = "Техническая навигация";
 
 </script>
  
