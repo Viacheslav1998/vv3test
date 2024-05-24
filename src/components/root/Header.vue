@@ -8,7 +8,7 @@
 
 <script setup>
   import mainMenu from '../menu/mainMenu.vue';
-  import spaceSlider from '../sliders/spaceSlider.vue/';
+  import spaceSlider from '../sliders/spaceSlider.vue';
 </script>
 
 <style>

@@ -8,22 +8,27 @@
 
 	  <div class="nav">
 	    <ul class="flex flex-row w-full p-5">
-	      <li class="pl-5"><p class="text-lg hover:text-stone-600 cursor-pointer">Desing</p></li>
-		  <li class="pl-5"><p class="text-lg hover:text-stone-600 cursor-pointer">Services</p></li>
-		  <li class="pl-5"><p class="text-lg hover:text-stone-600 cursor-pointer">Our Business</p></li>
-		  <li class="pl-5"><p class="text-lg hover:text-stone-600 cursor-pointer">How We Help</p></li>
-		  <li class="pl-5"><p class="text-lg hover:text-stone-600 cursor-pointer">Take The Tour</p></li>
-		  <li class="pl-5"><p class="text-lg hover:text-stone-600 cursor-pointer">Contact</p></li>
+	      <li 
+	        class="pl-5"
+	        v-for="(item, index) in menu" :key="index"
+	      >
+	      	<p class="text-lg hover:text-stone-600 cursor-pointer">{{ item }}</p>
+	      </li>
 	    </ul>
 	  </div>
     </div>
   </div>
-  <div v-for="(item, index) in menu" :key="index">
-  	<h1>{{ item }}</h1>
-  </div>
+  <!-- just training -->
+  <testComponent
+    :news=specialTestProp
+  />
+  <!-- поменеяй на блок новостей -->
 </template>
 
 <script setup>
+  import testComponent from '../tests/testComponent.vue';
+
+  /*use axios*/
   const menu = [
     "Design", 
     "Services", 
@@ -32,9 +37,9 @@
     "Take The Tour",
     "Contact"
   ];
-
-  const title = "XP-SERIOUS";
-
+  /*title*/
+  const title = "XP-SERIOUS"; 
+  const specialTestProp = "value special test absolute";
 
 </script>
  
