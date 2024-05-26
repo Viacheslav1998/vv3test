@@ -18,15 +18,13 @@
 	  </div>
     </div>
   </div>
-  <!-- just training -->
-  <Special
-    :news=special
-  />
-  <!-- поменеяй на блок новостей -->
+  <div class="block-news pt-[10px] pb-[10px] pl-[35px] text-gray-400 bg-stone-100 flex">
+  	<img src="/images/brick1.png" alt="logo" class="pr-2">
+  	<p class="pt-[20px] pl-[20px]">{{ special }}</p>
+  </div>
 </template>
 
 <script setup>
-  import Special from '../news/Special.vue';
 
   /*use axios*/
   const menu = [
@@ -37,7 +35,7 @@
     "Take The Tour",
     "Contact"
   ];
-  /*title*/
+ 
   const title = "XP-SERIOUS"; 
   const special = "Техническая навигация";
 

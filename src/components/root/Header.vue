@@ -9,6 +9,7 @@
 <script setup>
   import mainMenu from '../menu/mainMenu.vue';
   import spaceSlider from '../sliders/spaceSlider.vue';
+  /*block content контент какой то будет с доп блоками*/
 </script>
 
 <style>
