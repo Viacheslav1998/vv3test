@@ -17,8 +17,8 @@
 <script setup>
   import Special from '../news/Special.vue';
   
-  const news = "test message";
-  const part = "test2";
+  const part = "Название";
+  const news = "Описание новости | блока";
 </script>
 <style>
 </style>

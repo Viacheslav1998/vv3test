@@ -19,7 +19,7 @@
     </div>
   </div>
   <div class="block-news pt-[10px] pb-[10px] pl-[35px] text-gray-400 bg-stone-100 flex">
-  	<img src="/images/brick1.png" alt="logo" class="pr-2">
+  	<img src="/images/brick1.png" class="pr-2">
   	<p class="pt-[20px] pl-[20px]">{{ special }}</p>
   </div>
 </template>
