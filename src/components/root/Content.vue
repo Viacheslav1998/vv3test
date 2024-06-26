@@ -1,5 +1,5 @@
 <template>
 	<div>
-		тут контент который идет после хедера
+		THE CONTENT
 	</div>
 </template>
