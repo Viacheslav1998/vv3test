@@ -19,8 +19,16 @@
             </a>
           </div>
         </div>
-        <div class="right-block w-2/5 bg-red-300 m-10">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit aliquid ducimus, magni laboriosam perspiciatis itaque soluta, consequuntur ratione debitis aperiam suscipit, fugiat quasi quibusdam commodi ea rem. Voluptatum, ratione ducimus.</p>
+        <div class="right-block w-2/5 m-10 flex justify-center bg-[url('/part2/m20.jpg')] bg-cover rounded-lg ">
+          <div class="flex flex-col justify-center">
+            <button class="bg-sky-400 hover:bg-sky-300 text-white font-bold py-4 px-10 rounded m-1">
+              Sign In
+            </button>
+            <button class="bg-lime-400 hover:bg-lime-300 text-white font-bold py-4 px-10 rounded m-1">
+              Log On
+            </button>
+          </div>
+          
         </div>
       </div> 
     </div>
