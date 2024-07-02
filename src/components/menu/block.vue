@@ -10,14 +10,9 @@
               <h3 class="text-4xl">And Evolution</h3>
             </section>
           </div>
-          <div class="social flex pl-10">
-            <a href="#" 
-              class="p-1"
-              v-for="(image, link) in link_social" :key="link"
-            >
-              <img :src="image" :alt="'Social icon ' + (link + 1)" >
-            </a>
-          </div>
+          <Social 
+            class="pl-9"  
+          /> 
         </div>
         <div class="right-block w-2/5 m-10 flex justify-center bg-[url('/part2/m20.jpg')] bg-cover rounded-lg ">
           <div class="flex flex-col justify-center">
@@ -35,12 +30,15 @@
 </template>
 
 <script setup>
+  import Social from '../Social.vue';
+
   const link_social = [
     "/social/f.png",
     "/social/i.png",
     "/social/p.png",
     "/social/t.png",
-  ]
+  ];
+
 </script>
 
 <style>
