@@ -29,6 +29,9 @@
   </div>
 </template>
 
+
+
+
 <script setup>
   import Social from '../Social.vue';
 
@@ -37,7 +40,8 @@
     "/social/i.png",
     "/social/p.png",
     "/social/t.png",
-  ];
+  ]; 
+
 
 </script>
 
