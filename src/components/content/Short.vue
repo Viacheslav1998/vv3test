@@ -1,5 +1,4 @@
 <template>
- 
   <div class="bg-slate-300 p-[10px] flex justify-center">
     <div class="w-[80%] bg-neutral-50 p-[40px] rounded-lg"> 
       <p class="text-4xl text-sky-400">
