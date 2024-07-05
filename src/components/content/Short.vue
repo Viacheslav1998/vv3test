@@ -1,15 +1,16 @@
 <template>
  
-  <div class="bg-gray-800 p-[10px] flex justify-center">
-    <div class="w-[80%] bg-neutral-50 p-[44px] rounded-lg"> 
-      <p class="text-5xl text-sky-400">FAQ 
-        
+  <div class="bg-slate-300 p-[10px] flex justify-center">
+    <div class="w-[80%] bg-neutral-50 p-[40px] rounded-lg"> 
+      <p class="text-4xl text-sky-400">
+        1988-year
       </p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim officia libero temporibus fugit atque nostrum ratione magni dolore, eos, omnis dignissimos deleniti. Reprehenderit vel aut, nisi ipsum repellat minus!
-Debitis, consequuntur mollitia. Facilis molestias ut voluptas doloremque voluptate suscipit voluptatem! Nulla dolorem tenetur nostrum. Quae laboriosam beatae blanditiis vel impedit ut inventore corporis officia, ex est, porro minus libero.
-Id doloribus alias voluptatum laborum itaque porro praesentium voluptate dicta obcaecati hic nesciunt, esse nulla pariatur molestias cupiditate accusamus, quae vitae ex officiis. Explicabo minus qui, architecto nesciunt earum cumque.
-Blanditiis sint voluptatibus pariatur ducimus doloribus iste architecto ratione reiciendis modi id dolor, possimus natus mollitia aliquid non quibusdam tempore aut ab deserunt, labore et animi eaque! Architecto, perspiciatis obcaecati?
-Iure aut in assumenda pariatur voluptatum repudiandae, alias quibusdam recusandae unde corrupti delectus, velit officiis culpa perspiciatis. Atque, hic! Deleniti, illum. Perferendis quasi porro nihil nulla, beatae sequi vitae non.
+      Custom building 
+expensive but best anywhere you look<br>
+      You're correct when it comes to the construction company 
+it was founded in 1988.
+at that time there was a young man who wanted a house from the future - but he didn't want it to look futuristic.
+he wanted it to be comfortable.
     </div>
   </div>
 </template>
