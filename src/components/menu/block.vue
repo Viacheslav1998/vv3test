@@ -35,14 +35,6 @@
 <script setup>
   import Social from '../Social.vue';
 
-  const link_social = [
-    "/social/f.png",
-    "/social/i.png",
-    "/social/p.png",
-    "/social/t.png",
-  ]; 
-
-
 </script>
 
 <style>
