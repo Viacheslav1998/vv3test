@@ -2,7 +2,7 @@
   <div>
     <div class="social flex">
       <a href="#" 
-        class="p-1"
+        class="p-1 transition ease-in-out delay-75 hover:-rotate-[-17deg]"
         v-for="(image, link) in socialLinks" :key="link"
       >
         <img :src="image" :alt="'Social icon ' + (link + 1)" >
