@@ -34,10 +34,10 @@
       <div class="custom-slider w-3/5 pt-8 ">
         <Splide :options="{ rewind: true }">
           <SplideSlide>
-            <img src="/part2/m11.jpg" alt="Sample 1">
+            <img src="/slider/s1.jpg" alt="Sample 1">
           </SplideSlide>
           <SplideSlide>
-            <img src="/part2/m10.jpg" alt="Sample 2">
+            <img src="/slider/s2.jpg" alt="Sample 1">
           </SplideSlide>
         </Splide>
       </div>
