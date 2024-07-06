@@ -8,8 +8,8 @@
 
     <div class="box-cards flex justify-center">
       <!-- items -->
-      <div class="max-w-sm rounded overflow-hidden shadow-lg m-5">
-        <img class="w-full" src="/part2/m12.jpg" alt="Sunset in the mountains">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg m-5 bg-slate-100 ">
+        <img class="w-full" src="/part2/m12.jpg" alt="Sunset in the mountains ">
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
           <p class="text-gray-700 text-base">
@@ -23,7 +23,7 @@
         </div>
       </div>
       <!-- items -->
-      <div class="max-w-sm rounded overflow-hidden shadow-lg m-5">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg m-5 bg-slate-100">
         <img class="w-full" src="/part2/m23.jpg" alt="Sunset in the mountains">
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
@@ -38,7 +38,7 @@
         </div>
       </div>
       <!-- items -->
-      <div class="max-w-sm rounded overflow-hidden shadow-lg m-5">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg m-5 bg-slate-100">
         <img class="w-full" src="/part2/m10.jpg" alt="Sunset in the mountains">
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
@@ -53,7 +53,7 @@
         </div>
       </div>
       <!-- items -->
-      <div class="max-w-sm rounded overflow-hidden shadow-lg m-5">
+      <div class="max-w-sm rounded overflow-hidden shadow-lg m-5 bg-slate-100">
         <img class="w-full" src="/part2/m16.jpg" alt="Sunset in the mountains">
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">The Coldest Sunset</div>

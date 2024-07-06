@@ -26,8 +26,9 @@
           <button type="button" v-scroll-to="'#short'" class="focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">Shorter</button>
           <button type="button" class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Further</button>
         </div>
-        <div id="element">
-            Hi. I'm #element.
+        <div class="flex">
+            <p class="border-b-2 border-amber-300 border-dashed">This is info about company</p>
+            <img class="bg-amber-300 shadow-[0_0_23px_-2px_rgba(240,240,240.9)]  rotate-[140deg] ml-5 p-1 rounded-md " src="/part2/a1.png" alt="asd">
         </div>
       </div>
       <div class="custom-slider w-3/5 pt-8 ">
