@@ -19,9 +19,13 @@
         </li>
 			</ul>
 		</div>
-		<div class="space w-1/3 flex bg-slate-100 bg-opacity-95">
-			<div class="lang">lang</div>
-			<div class="ico">size</div>
+		<div class="space w-1/3 flex bg-slate-100 bg-opacity-95 pt-8">
+			<div class="lang">
+				<img src="/images/lang.png" alt="lang">
+			</div>
+			<div class="ico pl-4">
+				<img src="/images/size.png" alt="size">
+			</div>
 		</div>
 	</div>
 </template>
