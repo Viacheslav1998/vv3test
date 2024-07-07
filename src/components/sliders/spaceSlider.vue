@@ -28,7 +28,7 @@
         </div>
         <div class="flex">
             <p class="border-b-2 border-amber-300 border-dashed">This is info about company</p>
-            <img class="bg-amber-300 shadow-[0_0_23px_-2px_rgba(240,240,240.9)]  rotate-[140deg] ml-5 p-1 rounded-md " src="/part2/a1.png" alt="asd">
+            <img class="bg-amber-300 shadow-[0_0_23px_-2px_rgba(240,240,240.9)]  ml-5 p-1 rounded-md animate-bounce" src="/part2/a1.png" alt="asd">
         </div>
       </div>
       <div class="custom-slider w-3/5 pt-8 ">
