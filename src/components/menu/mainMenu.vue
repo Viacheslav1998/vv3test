@@ -64,6 +64,9 @@
 					</ul>
 				</div>
 			</div>
+			<div class="theme pl-4">
+				<img src="" alt="themeSite">
+			</div>
 		</div>
 	</div>
 	<p :class="fontSizeClass">
