@@ -19,30 +19,6 @@
         </li>
 			</ul>
 		</div>
-		
-
-
-		
-
-<!-- Dropdown menu -->
-<div id="dropdownAvatar" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
-      <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
-      </li>
-      <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
-      </li>
-      <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
-      </li>
-      <li>
-        <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
-      </li>
-    </ul>
-</div>
-
-
 		<div class="space w-1/3 flex bg-slate-100 bg-opacity-95 pt-8">
 			<div class="lang">
 				<button id="dropdownUserAvatarButton" data-dropdown-toggle="dropdownAvatar" type="button">
@@ -64,10 +40,26 @@
 							<a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
 						</li>
 					</ul>
+				</div>
 			</div>
-			</div>
-			<div class="ico pl-4">
-				<img src="/images/size.png" alt="size">
+			<div class="size pl-4">
+				<button id="dropdownUserAvatarButton" data-dropdown-toggle="fontSize" type="button">
+				  <img src="/images/size.png" alt="font-size">
+			  </button>
+				<!-- dropdown -->
+				<div id="fontSize" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+					<ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+						<li>
+							<a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">level 1</a>
+						</li>
+						<li>
+							<a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">level 2</a>
+						</li>
+						<li>
+							<a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">level 3</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
