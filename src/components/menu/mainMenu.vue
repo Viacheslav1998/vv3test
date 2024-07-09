@@ -3,6 +3,9 @@
 	 I don't have the free time to customize it.
 	 because the menu has been expanded
 	 -->
+
+
+
   <div class="menu flex bg-[url('/short/m8.jpg')] bg-cover">
 		<div class="logo bg-blue-600 w-1/3 flex justify-end backdrop-blur-sm pl-5">
 			<h2 class="p-5 text-5xl text-slate-50">
@@ -50,23 +53,63 @@
 				<div id="fontSize" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
 					<ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
 						<li>
-							<a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-lg">level 1</a>
+							<a href="#" @click="selectFontSize('text-lg')" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-lg">level 1</a>
 						</li>
 						<li>
-							<a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-xl">level 2</a>
+							<a href="#" @click="selectFontSize('text-xl')" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-xl">level 2</a>
 						</li>
 						<li>
-							<a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-2xl">level 3</a>
+							<a href="#" @click="selectFontSize('text-2xl')" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-2xl">level 3</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</div>
+	<p :class="fontSizeClass">
+      {{ dynamicText }} оставлю для примера
+	</p>
+
+	<div :class="fontSizeClass">тут тоже пример</div>
 </template>
 <script setup>
-import { onMounted } from 'vue';
 import { initFlowbite } from 'flowbite';
+import { ref, computed, onMounted } from 'vue';
+
+// component state
+const selectedFontSize = ref(localStorage.getItem('selectedFontSize') || 'text-lg');
+
+// fonts styles
+const dynamicTexts = {
+  'text-lg': 'normal text',
+  'text-xl': 'middle text',
+  'text-2xl': 'large text',
+};
+
+// select font-size and save to localStorage
+const selectFontSize = (fontSize) => {
+  selectedFontSize.value = fontSize;
+	localStorage.setItem('selectedFontSize', fontSize);
+  closeDropdown();
+};
+
+// return value for class
+const fontSizeClass = computed(() => {
+  return selectedFontSize.value;
+});
+
+// return decription
+const dynamicText = computed(() => {
+  return dynamicTexts[selectedFontSize.value];
+});
+
+// prepare and select current value
+onMounted(() => {
+  const savedFontSize = localStorage.getItem('selectedFontSize');
+  if (savedFontSize) {
+    selectedFontSize.value = savedFontSize;
+  }
+});
 
 // initialize components based on data attribute selectors
 onMounted(() => {
