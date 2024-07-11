@@ -9,7 +9,7 @@
 			<ul class="flex bg-slate-100 p-8 text-xl bg-opacity-95">
         <li
           class="pr-4 hover:text-lime-600 cursor-pointer "
-					:class="fontSizeClass"
+					:class="currentFontSize"
           v-for="(index) in list"
         >
           {{ index }}
@@ -77,16 +77,15 @@ import { useStore } from 'vuex';
 const store = useStore();
 const currentFontSize = ref(store.getters.getCurrentFontSize);
 
+// get current size
 watchEffect(() => {
   currentFontSize.value = store.getters.getCurrentFontSize;
 });
 
+// change current size
 const handleChangeFontSize = newSize => {
   store.dispatch('changeFontSize', newSize);
 };
-
-
-const fontSizeClass = store.getters.fontSizeClass;
 
 // initialize components based on data attribute selectors
 onMounted(() => {
