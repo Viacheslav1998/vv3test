@@ -47,13 +47,13 @@
 				<div id="fontSize" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
 					<ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
 						<li>
-							<a href="#" @click="selectFontSize('text-lg')" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-lg">level 1</a>
+							<a href="#" @click="handleChangeFontSize('text-lg')" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-lg">level 1</a>
 						</li>
 						<li>
-							<a href="#" @click="selectFontSize('text-xl')" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-xl">level 2</a>
+							<a href="#" @click="handleChangeFontSize('text-xl')" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-xl">level 2</a>
 						</li>
 						<li>
-							<a href="#" @click="selectFontSize('text-2xl')" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-2xl">level 3</a>
+							<a href="#" @click="handleChangeFontSize('text-2xl')" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-2xl">level 3</a>
 						</li>
 					</ul>
 				</div>
@@ -63,50 +63,30 @@
 			</div>
 		</div>
 	</div>
-	<p :class="fontSizeClass">
-      {{ dynamicText }} оставлю для примера
-	</p>
+	<div class="mt-4">
+      <p :class="currentFontSize">Example Text</p>
+    </div>
 
-	<div :class="fontSizeClass">тут тоже пример</div>
+	<div :class="currentFontSize">тут тоже пример</div>
 </template>
 <script setup>
 import { initFlowbite } from 'flowbite';
-import { ref, computed, onMounted } from 'vue';
+import { ref, onMounted, watchEffect  } from 'vue';
+import { useStore } from 'vuex';
 
-// component state
-const selectedFontSize = ref(localStorage.getItem('selectedFontSize') || 'text-lg');
+const store = useStore();
+const currentFontSize = ref(store.getters.getCurrentFontSize);
 
-// fonts styles
-const dynamicTexts = {
-  'text-lg': 'normal text',
-  'text-xl': 'middle text',
-  'text-2xl': 'large text',
+watchEffect(() => {
+  currentFontSize.value = store.getters.getCurrentFontSize;
+});
+
+const handleChangeFontSize = newSize => {
+  store.dispatch('changeFontSize', newSize);
 };
 
-// select font-size and save to localStorage
-const selectFontSize = (fontSize) => {
-  selectedFontSize.value = fontSize;
-	localStorage.setItem('selectedFontSize', fontSize);
-  closeDropdown();
-};
 
-// return value for class
-const fontSizeClass = computed(() => {
-  return selectedFontSize.value;
-});
-
-// return decription
-const dynamicText = computed(() => {
-  return dynamicTexts[selectedFontSize.value];
-});
-
-// prepare and select current value
-onMounted(() => {
-  const savedFontSize = localStorage.getItem('selectedFontSize');
-  if (savedFontSize) {
-    selectedFontSize.value = savedFontSize;
-  }
-});
+const fontSizeClass = store.getters.fontSizeClass;
 
 // initialize components based on data attribute selectors
 onMounted(() => {
@@ -122,6 +102,8 @@ const list = [
 	"List",
 	"Contact"
 ];
+
+
 
 </script>
 

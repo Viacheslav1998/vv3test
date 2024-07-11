@@ -15,7 +15,8 @@
     "npm": "^10.2.5",
     "tw-elements": "^1.1.0",
     "vue": "^3.3.11",
-    "vue-scrollto": "^2.20.0"
+    "vue-scrollto": "^2.20.0",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
