@@ -101,11 +101,7 @@ const list = [
 	"List",
 	"Contact"
 ];
-
-
-
 </script>
-
 
 <style>	
 </style>

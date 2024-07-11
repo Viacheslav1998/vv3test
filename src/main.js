@@ -11,5 +11,5 @@ import './index.css'
 const app = createApp( App );
 app.use( VueSplide );
 app.use( VueScrollTo );
-app.use( store );
+app.use(store);
 app.mount( '#app' );
