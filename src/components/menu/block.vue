@@ -33,7 +33,7 @@
 <script setup>
   import Social from '../Social.vue';
   import { computed } from 'vue';
-  import { useCustomStore } from '../hooks/useCustomStore';
+  import { useCustomStore } from '../../hooks/useCustomStore';
  
   // use and apply the current style 
   const store = useCustomStore();
