@@ -1,6 +1,5 @@
 <template>
-  <test />
-  <div :class="currentFontSize">я думаю что это сработает </div>
+  <div :class="sizeFont">я думаю что это сработает </div>
   <div class="wp-block flex justify-center p-8 bg-slate-200 pb-20">
     <div class="w-[80%] h-[400px] bg-[url('/part2/m22.jpg')]  flex rounded-lg  drop-shadow-md border-4 border-stone-50">
       <div class="main-block flex justify-between w-full">
@@ -33,14 +32,14 @@
 
 <script setup>
   import Social from '../Social.vue';
-  import test from '../test/test.vue';
-  import { computed } from 'vue';
-  import { useCustomStore } from '../../hooks/useCustomStore';
- 
-  // use and apply the current style 
-  const store = useCustomStore();
-  const currentFontSize = computed(() => store.getters.getCurrentFontSize);
-
+  import { defineProps } from 'vue';
+  
+  const props = defineProps({
+    sizeFont: {
+      type: String,
+      required: true, 
+    },
+  });
 </script>
 
 <style>

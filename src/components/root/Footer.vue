@@ -8,10 +8,7 @@
 </template>
 
 <script>
-  import '../../styles/main.css';
-  export default {
-	name: "Footer"
-  };
+ 
 </script>
 
 <style>
