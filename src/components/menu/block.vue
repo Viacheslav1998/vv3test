@@ -1,5 +1,4 @@
 <template>
-  <div :class="sizeFont">я думаю что это сработает </div>
   <div class="wp-block flex justify-center p-8 bg-slate-200 pb-20">
     <div class="w-[80%] h-[400px] bg-[url('/part2/m22.jpg')]  flex rounded-lg  drop-shadow-md border-4 border-stone-50">
       <div class="main-block flex justify-between w-full">
@@ -28,15 +27,13 @@
         </div>
       </div> 
     </div>
-    <test />
   </div>
 </template>
 
 <script setup>
   import Social from '../Social.vue';
   import { defineProps } from 'vue';
-  import test from '../test/test.vue';
-  
+
   const props = defineProps({
     sizeFont: {
       type: String,

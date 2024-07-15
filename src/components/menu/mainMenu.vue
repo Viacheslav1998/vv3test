@@ -63,11 +63,6 @@
 			</div>
 		</div>
 	</div>
-	<div class="mt-4">
-      <p :class="currentFontSize">Example Text</p>
-    </div>
-
-	<div :class="currentFontSize">тут тоже пример</div>
 </template>
 <script setup>
 import { initFlowbite } from 'flowbite';
