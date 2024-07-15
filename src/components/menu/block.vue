@@ -15,6 +15,7 @@
             class="pl-9"  
           /> 
         </div>
+        
         <div class="right-block w-2/5 m-10 flex justify-center bg-[url('/part2/m19.jpg')] bg-cover rounded-lg shadow-cyan-500/50">
           <div class="flex flex-col justify-center">
             <button class="bg-sky-400 hover:bg-sky-300 text-white font-bold py-4 px-10 rounded m-1">
@@ -27,12 +28,14 @@
         </div>
       </div> 
     </div>
+    <test />
   </div>
 </template>
 
 <script setup>
   import Social from '../Social.vue';
   import { defineProps } from 'vue';
+  import test from '../test/test.vue';
   
   const props = defineProps({
     sizeFont: {
