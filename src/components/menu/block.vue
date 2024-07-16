@@ -32,14 +32,6 @@
 
 <script setup>
   import Social from '../Social.vue';
-  import { defineProps } from 'vue';
-
-  const props = defineProps({
-    sizeFont: {
-      type: String,
-      required: true, 
-    },
-  });
 </script>
 
 <style>
