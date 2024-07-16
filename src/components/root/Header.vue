@@ -3,10 +3,10 @@
     class="header">
     
    	<mainMenu />
-    <block
+    <block />
+    <Short 
       :sizeFont="currentFontSize"
-    />
-    <Short /> 
+    /> 
   </div>
 </template>
 
