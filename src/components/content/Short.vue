@@ -3,7 +3,6 @@
     :class="sizeFont"
     class="bg-slate-300 p-[32px] flex justify-center" 
     id="short"
-
   >
     <div class="w-[80%] bg-neutral-50 p-[40px] rounded-lg flex flex-col"> 
       <p class="text-4xl text-gray-50 py-5 bg-slate-800 w-[200px] flex justify-center mb-5 rounded-lg border border-black">
@@ -30,8 +29,4 @@
       required: true,
     }
   });
-</script>
-<script>
-// methods
-
 </script>
