@@ -3,7 +3,9 @@
 		<Cards
 		  :sizeFont="currentFontSize"
 		/>
-		<spaceSlider />
+		<spaceSlider
+		  :sizeFont="currentFontSize" 
+		/>
 	</div>
 </template>
 

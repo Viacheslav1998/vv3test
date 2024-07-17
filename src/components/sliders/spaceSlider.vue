@@ -47,7 +47,16 @@
 <script setup>
   import '@splidejs/vue-splide/css/sea-green';
   import Social from '../Social.vue';
-  
+  import { defineProps } from 'vue';
+
+  const props = defineProps({
+    sizeFont: {
+      type: String, 
+      required: true,
+    }
+  });
+
+  // осталось просто вставить динамическую переменную
 </script>
 <style>
 </style>
