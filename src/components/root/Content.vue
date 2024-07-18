@@ -6,12 +6,14 @@
 		<spaceSlider
 		  :sizeFont="currentFontSize" 
 		/>
+		<About />
 	</div>
 </template>
 
 <script setup>
   import Cards from '../content/Cards.vue';
 	import spaceSlider from '../sliders/spaceSlider.vue';
+	import About from '../content/About.vue';
 	import { computed } from 'vue';
   import { useCustomStore } from '../../hooks/useCustomStore';
 
