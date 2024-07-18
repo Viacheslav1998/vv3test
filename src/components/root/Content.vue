@@ -6,7 +6,9 @@
 		<spaceSlider
 		  :sizeFont="currentFontSize" 
 		/>
-		<About />
+		<About 
+		  :sizeFont="currentFontSize"
+		/>
 	</div>
 </template>
 
