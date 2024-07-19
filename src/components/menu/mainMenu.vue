@@ -13,7 +13,7 @@
           v-for="(index) in list"
         >
           {{ index }}
-        </li>
+        </li> 
 			</ul>
 		</div>
 		<div class="space w-1/3 flex bg-slate-100 bg-opacity-95 pt-8">
