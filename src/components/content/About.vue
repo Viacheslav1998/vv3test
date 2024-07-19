@@ -11,7 +11,7 @@
         <div class="bg-white p-4 sm:p-8">
           <div
             class="font-inter text-2xl font-extrabold tracking-tight text-black">
-            Majestic peaks, nature's embrace.
+            About our company
           </div>
           <div class="mt-1 text-sm font-medium text-slate-500">
             Adventure calls, conquer mountain trails.
@@ -23,6 +23,22 @@
             world.
           </p>
           <p class="mt-4 leading-7 text-slate-500">
+            As the sun rises over the rugged peaks, casting a golden glow on
+            the majestic landscape, a sense of awe fills the heart,
+            reminding us of the grandeur and power that reside in the
+            mountains.
+            As the sun rises over the rugged peaks, casting a golden glow on
+            the majestic landscape, a sense of awe fills the heart,
+            reminding us of the grandeur and power that reside in the
+            mountains.
+            As the sun rises over the rugged peaks, casting a golden glow on
+            the majestic landscape, a sense of awe fills the heart,
+            reminding us of the grandeur and power that reside in the
+            mountains.
+            As the sun rises over the rugged peaks, casting a golden glow on
+            the majestic landscape, a sense of awe fills the heart,
+            reminding us of the grandeur and power that reside in the
+            mountains.
             As the sun rises over the rugged peaks, casting a golden glow on
             the majestic landscape, a sense of awe fills the heart,
             reminding us of the grandeur and power that reside in the
