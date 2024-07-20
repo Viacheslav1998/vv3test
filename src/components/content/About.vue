@@ -5,7 +5,7 @@
       <h4 class="text-5xl text-orange-600">this is where you'll get to know the company.</h4>
       <p class="border-b border-slate-900 pl-1" :class="sizeFont">History, Influence, Success ...</p>
     </div>
-    <div class="mx-auto   overflow-y-scroll bg-cover bg-fixed bg-center bg-no-repeat shadow-lg"
+    <div class="mx-auto overflow-auto h-[600px] bg-cover bg-fixed bg-center bg-no-repeat shadow-lg"
       style="background-image:url('https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp');">
       <div class="mt-40">
         <div class="bg-white p-4 sm:p-8">
