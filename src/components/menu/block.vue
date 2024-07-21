@@ -1,6 +1,6 @@
 <template>
   <div class="wp-block flex justify-center p-8 bg-slate-200 pb-20">
-    <div class="w-[80%] h-[400px] bg-[url('/part2/m22.jpg')]  flex rounded-lg  drop-shadow-md border-4 border-stone-50">
+    <div class="w-[80%] h-[400px] bg-[url('/part2/m15.jpg')]  flex rounded-lg  drop-shadow-md border-4 border-stone-50">
       <div class="main-block flex justify-between w-full">
         <div class="left-block w-3/5 bg-zinc-950 m-10 flex flex-col justify-around p-2 bg-opacity-55 rounded-lg">
           <div class="pl-10">
