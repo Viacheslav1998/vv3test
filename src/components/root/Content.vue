@@ -9,6 +9,9 @@
 		<About 
 		  :sizeFont="currentFontSize"
 		/>
+		<Tech 
+		  :sizeFont="currentFontSize"
+		/>
 	</div>
 </template>
 
@@ -16,6 +19,7 @@
   import Cards from '../content/Cards.vue';
 	import spaceSlider from '../sliders/spaceSlider.vue';
 	import About from '../content/About.vue';
+	import Tech from '../content/Tech.vue';
 	import { computed } from 'vue';
   import { useCustomStore } from '../../hooks/useCustomStore';
 
