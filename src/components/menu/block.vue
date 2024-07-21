@@ -5,14 +5,14 @@
         <div class="left-block w-3/5 bg-zinc-950 m-10 flex flex-col justify-around p-2 bg-opacity-55 rounded-lg">
           <div class="pl-10">
             <section class="font-mono text-white">
-              <h1 class="text-6xl">The Big Company Ideas</h1>
-              <h2 class="text-5xl">Useful Technologies</h2>
+              <h1 class="text-4xl">The Big Company Ideas</h1>
+              <h2 class="text-4xl">Useful Technologies</h2>
               <h3 class="text-4xl">And Evolution</h3>
             </section>
           </div>
           <Social 
             class="pl-9"  
-          /> 
+          />
         </div>
         
         <div class="right-block w-2/5 m-10 flex justify-center bg-[url('/part2/m19.jpg')] bg-cover rounded-lg shadow-cyan-500/50">
