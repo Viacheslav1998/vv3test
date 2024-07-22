@@ -1,8 +1,7 @@
 <template>
-  <div class="wp-cards p-[32px] flex justify-center bg-gray-300">
+  <div class="wp-cards p-[32px] flex justify-center bg-zinc-400">
     <div class="w-[80%]">
-
-      <div class="wp-space  bg-[url('/part2/m24.jpg')] bg-cover bg-stone-300 p-20 my-20">
+      <div class="wp-space bg-[url('/part2/m24.jpg')] bg-cover bg-stone-300 p-20 my-10">
         <h4 class="text-5xl text-violet-600">Quick Offers</h4>
         <p 
           :class="sizeFont"
