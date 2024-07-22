@@ -5,4 +5,7 @@
       <p class="border-b border-slate-900 pl-1" :class="sizeFont">electricity, water, garden, nature, light</p>
     </div>
   </div>
+
+
+  <!-- тут попробуй с размерами поработать размер блока ширина что бы подогнать под header размер -->
 </template>
