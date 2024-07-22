@@ -9,9 +9,9 @@
         >we've got some great options for you</p>
       </div>
 
-      <div class="box-cards flex justify-center">
+      <div class="box-cards flex justify-between">
         <!-- items -->
-        <div class="max-w-sm rounded overflow-hidden shadow-lg m-5 bg-slate-100">
+        <div class="w-80 rounded overflow-hidden shadow-lg m-1 bg-slate-100">
           <img class="w-full" src="/part2/m12.jpg" alt="Sunset in the mountains">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
@@ -26,7 +26,7 @@
           </div>
         </div>
         <!-- items -->
-        <div class="max-w-sm rounded overflow-hidden shadow-lg m-5 bg-slate-100">
+        <div class="w-80 rounded overflow-hidden shadow-lg m-1 bg-slate-100">
           <img class="w-full" src="/part2/m23.jpg" alt="Sunset in the mountains">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
@@ -41,7 +41,7 @@
           </div>
         </div>
         <!-- items -->
-        <div class="max-w-sm rounded overflow-hidden shadow-lg m-5 bg-slate-100">
+        <div class="w-80 rounded overflow-hidden shadow-lg m-1 bg-slate-100">
           <img class="w-full" src="/part2/m10.jpg" alt="Sunset in the mountains">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
@@ -56,7 +56,7 @@
           </div>
         </div>
         <!-- items -->
-        <div class="max-w-sm rounded overflow-hidden shadow-lg m-5 bg-slate-100">
+        <div class="w-80 rounded overflow-hidden shadow-lg m-1 bg-slate-100">
           <img class="w-full" src="/part2/m16.jpg" alt="Sunset in the mountains">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
@@ -72,7 +72,7 @@
         </div>
       </div>
       <!-- title line -->
-      <div class="wp-space w-full bg-[url('/part2/m24.jpg')] bg-cover bg-stone-300 p-20 mt-20">
+      <div class="wp-space w-full bg-[url('/part2/m24.jpg')] bg-cover bg-stone-300 p-20 my-20">
         <h4 class="text-5xl text-pink-600">Well, if there's plenty of time ...</h4>
         <p class="border-b border-slate-900 pl-1"  :class="sizeFont">There are other suggestions as well</p>
       </div>
