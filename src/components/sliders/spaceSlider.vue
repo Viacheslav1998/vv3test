@@ -2,8 +2,9 @@
   <div class="p-[32px] flex justify-center">
     <div class="w-[80%]">
       <div class="wp-custom-slider bg-[url('/part2/m25.jpg')] ">
-        <div class="fone bg-gray-500 bg-opacity-70 w-full flex justify-around px-5">
-          <div class="custom-content  w-2/5 bg-slate-800 my-20 p-5 flex flex-col justify-around rounded-md bg-opacity-90">
+        <div class="fone bg-gray-500 bg-opacity-70 px-5 flex flex-col">
+          
+          <div class="custom-content w-full h-[500px] bg-slate-800 my-10 p-5 flex flex-col justify-around rounded-md bg-opacity-90">
             <div>
               <h5 class="text-2xl text-amber-50">The choice is obvious</h5>
               <p class="text-yellow-300" :class="sizeFont">
@@ -33,7 +34,8 @@
                 <img class="bg-amber-300 shadow-[0_0_23px_-2px_rgba(240,240,240.9)]  ml-5 p-1 rounded-md animate-bounce" src="/part2/a1.png" alt="asd">
             </div>
           </div>
-          <div class="custom-slider w-3/5 pt-8 ">
+
+          <div class="custom-slider w-full">
             <Splide :options="{ rewind: true }">
               <SplideSlide>
                 <img src="/slider/s1.jpg" alt="Sample 1">
