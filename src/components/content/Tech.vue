@@ -7,7 +7,9 @@
       </div>
       <div class="title-description bg-teal-500 px-20  py-10 mt-10">
         <h3 class="text-3xl text-amber-300">Review of some concepts</h3>
-      </div> 
+      </div>
+      
+      <!-- картинки и пояснения типо трубовопровод сады электричество типо рекламкиф -->
     </div>
   </div>
 

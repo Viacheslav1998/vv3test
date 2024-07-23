@@ -3,7 +3,6 @@
     <div class="w-[80%]">
       <div class="wp-custom-slider bg-[url('/part2/m25.jpg')] ">
         <div class="fone bg-gray-500 bg-opacity-70 px-5 flex flex-col">
-          
           <div class="custom-content w-full h-[500px] bg-slate-800 my-10 p-5 flex flex-col justify-around rounded-md bg-opacity-90">
             <div>
               <h5 class="text-2xl text-amber-50">The choice is obvious</h5>
@@ -23,7 +22,6 @@
               <h5 class="text-2xl text-amber-50">You can share:</h5>
               <Social />
             </div>
-
             <div>
               <h5 class="text-2xl text-amber-50 pb-1">More info:</h5>
               <button type="button" v-scroll-to="'#short'" class="focus:outline-none text-black bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-yellow-900">Shorter</button>
@@ -34,7 +32,6 @@
                 <img class="bg-amber-300 shadow-[0_0_23px_-2px_rgba(240,240,240.9)]  ml-5 p-1 rounded-md animate-bounce" src="/part2/a1.png" alt="asd">
             </div>
           </div>
-
           <div class="custom-slider w-full">
             <Splide :options="{ rewind: true }">
               <SplideSlide>

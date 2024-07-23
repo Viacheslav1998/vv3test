@@ -1,9 +1,20 @@
 <template>
   <footer>
-  	<div class="bg-gray-600 p-5 text-slate-100">
-  	  Footer | Подвал
-  	  <span class="f text-slate-100 text-[9px]">здесь бывает что то интерессное</span>
-  	</div>
+		<div class="w-full h-[500px] bg-gray-700 p-[32px] flex justify-center">
+			<div class="w-[80%] ">
+				<div class="box-1">
+					columb-1
+				</div>
+				<div class="box-2">
+					columb-2
+				</div>
+				<div class="box-3">
+				  columb-3
+				</div>
+				<!-- icons here -->
+			</div>
+		</div>
+		<div class="w-full bg-indigo-400 h-[20px]"></div>
   </footer>
 </template>
 
