@@ -1,5 +1,5 @@
 <template>
-  <div class="main-about flex justify-center bg-gray-100">
+  <div class="wp-cards p-[32px] flex justify-center bg-zinc-400">
     <div class="w-[80%]">
       <!-- title line -->
       <div class="wp-space w-full bg-[url('/part2/m24.jpg')] bg-cover bg-stone-300 p-20 mt-20 mb-20">
