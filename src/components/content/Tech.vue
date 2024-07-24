@@ -14,7 +14,7 @@
             <img src="/part2/1.jpg" alt="imagen was here" class="object-cover">
           </div>
           <div class="bg-slate-100  w-5/6">
-            <p class="m-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sequi ut optio numquam officiis debitis cupiditate facilis voluptates necessitatibus, nihil rem voluptate blanditiis maiores rerum maxime dolores dolorem impedit quidem.</p>
+            <p class="m-20" :class="sizeFont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sequi ut optio numquam officiis debitis cupiditate facilis voluptates necessitatibus, nihil rem voluptate blanditiis maiores rerum maxime dolores dolorem impedit quidem.</p>
           </div>
         </div>
         <div class="item-t pt-5 flex flex-row">
@@ -22,7 +22,7 @@
             <img src="/part2/2.jpg" alt="imagen was here" class="object-cover">
           </div>
           <div class="bg-slate-100  w-5/6">
-            <p class="m-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sequi ut optio numquam officiis debitis cupiditate facilis voluptates necessitatibus, nihil rem voluptate blanditiis maiores rerum maxime dolores dolorem impedit quidem.</p>
+            <p class="m-20" :class="sizeFont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sequi ut optio numquam officiis debitis cupiditate facilis voluptates necessitatibus, nihil rem voluptate blanditiis maiores rerum maxime dolores dolorem impedit quidem.</p>
           </div>
         </div> 
         <div class="item-t pt-5 flex flex-row">
@@ -30,7 +30,7 @@
             <img src="/part2/3.jpg" alt="imagen was here" class="object-cover">
           </div>
           <div class="bg-slate-100  w-5/6">
-            <p class="m-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sequi ut optio numquam officiis debitis cupiditate facilis voluptates necessitatibus, nihil rem voluptate blanditiis maiores rerum maxime dolores dolorem impedit quidem.</p>
+            <p class="m-20" :class="sizeFont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sequi ut optio numquam officiis debitis cupiditate facilis voluptates necessitatibus, nihil rem voluptate blanditiis maiores rerum maxime dolores dolorem impedit quidem.</p>
           </div>
         </div> 
         <div class="item-t pt-5 flex flex-row">
@@ -38,13 +38,21 @@
             <img src="/part2/4.jpg" alt="imagen was here" class="object-cover">
           </div>
           <div class="bg-slate-100  w-5/6">
-            <p class="m-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sequi ut optio numquam officiis debitis cupiditate facilis voluptates necessitatibus, nihil rem voluptate blanditiis maiores rerum maxime dolores dolorem impedit quidem.</p>
+            <p class="m-20" :class="sizeFont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sequi ut optio numquam officiis debitis cupiditate facilis voluptates necessitatibus, nihil rem voluptate blanditiis maiores rerum maxime dolores dolorem impedit quidem.</p>
           </div>
         </div> 
       </div>
     </div>
-  </div>
-
-
-  <!-- тут попробуй с размерами поработать размер блока ширина что бы подогнать под header размер -->
+  </div>  
 </template>
+
+<script setup>
+  import { defineProps } from 'vue';
+  
+  const props = defineProps({
+    sizeFont: {
+      type: String,
+      required: true,
+    }
+  });
+</script>
