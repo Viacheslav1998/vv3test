@@ -14,7 +14,7 @@
 				<!-- icons here -->
 			</div>
 		</div>
-		<div class="w-full bg-indigo-400 h-[20px]"></div>
+		<div class="w-full bg-slate-200 h-[20px]"></div>
   </footer>
 </template>
 
