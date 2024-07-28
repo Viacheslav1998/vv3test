@@ -32,16 +32,20 @@
 					</div>
 				</div>	
 
+				<div class="logo flex justify-center">
+					<h5 class="text-slate-500 text-xl pt-10">CONTACTS</h5>
+				</div>
+
 				<div class="wrapper-boxes flex justify-center">
-					<div class="box w-[200px] flex flex-col p-5 m-5 text-slate-400 border-t-4">
+					<div class="box w-[200px] flex flex-col p-5 m-5 text-slate-400 border-t border-slate-500">
 						<h6>addressee: Michigan, Beverly Shores</h6>
 						<p>789789</p>
 						<p>asd</p>
 					</div>
-					<div class="box w-[200px] flex flex-col p-5 m-5 text-slate-400 border-t-4">
+					<div class="box w-[200px] flex flex-col p-5 m-5 text-slate-400 border-t border-slate-500">
 						columb-2
 					</div>
-					<div class="box w-[200px] flex flex-col p-5 m-5 text-slate-400 border-t-4">
+					<div class="box w-[200px] flex flex-col p-5 m-5 text-slate-400 border-t border-slate-500">
 						columb-3
 					</div>
 				</div>
