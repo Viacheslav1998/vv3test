@@ -22,20 +22,8 @@
 					</div>
 				</div>	
 
-				<div class="wrapper-boxes">
-					<div class="box-1 ">
-						asd
-					</div>
-					<div class="box-2">
-						columb-2
-					</div>
-					<div class="box-3">
-						columb-3
-					</div>
-				</div>
-
 				<div class="logo flex justify-center ">
-					<h5 class="text-gray-500 text-xl pb-5">BEST-PLACE</h5>
+					<h5 class="text-gray-500 text-xl p-5">BEST-PLACE</h5>
 				</div>
 
 				<div class="flex justify-center">
@@ -43,6 +31,20 @@
 					  <img src="/short/5.jpg" alt="logo" class="rounded-lg w-48 m-1 shadow-lg">
 					</div>
 				</div>	
+
+				<div class="wrapper-boxes flex justify-center ">
+					<div class="box flex flex-col p-5 text-slate-400 ">
+						<h6>addressee: Michigan, Beverly Shores</h6>
+						<p>789789</p>
+						<p>asd</p>
+					</div>
+					<div class="box flex flex-col p-5">
+						columb-2
+					</div>
+					<div class="box flex flex-col p-5">
+						columb-3
+					</div>
+				</div>
 
 				<div class="">
 SERVICES HERE ....
