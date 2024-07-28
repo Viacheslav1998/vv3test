@@ -4,13 +4,13 @@ import { createStore } from 'vuex';
 const store = createStore({
   state() {
     return {
-      currentFontSize: localStorage.getItem('fontSize') || 'text-lg' // Используем значение из localStorage или по умолчанию 'text-lg'
+      currentFontSize: localStorage.getItem('fontSize') || 'text-lg' 
     };
   },
   mutations: {
     setFontSize(state, newSize) {
       state.currentFontSize = newSize;
-      localStorage.setItem('fontSize', newSize); // Сохраняем значение в localStorage
+      localStorage.setItem('fontSize', newSize); 
     }
   },
   actions: {
