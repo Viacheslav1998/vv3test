@@ -32,16 +32,16 @@
 					</div>
 				</div>	
 
-				<div class="wrapper-boxes flex justify-center ">
-					<div class="box flex flex-col p-5 text-slate-400 ">
+				<div class="wrapper-boxes flex justify-center">
+					<div class="box w-[200px] flex flex-col p-5 m-5 text-slate-400 border-t-4">
 						<h6>addressee: Michigan, Beverly Shores</h6>
 						<p>789789</p>
 						<p>asd</p>
 					</div>
-					<div class="box flex flex-col p-5">
+					<div class="box w-[200px] flex flex-col p-5 m-5 text-slate-400 border-t-4">
 						columb-2
 					</div>
-					<div class="box flex flex-col p-5">
+					<div class="box w-[200px] flex flex-col p-5 m-5 text-slate-400 border-t-4">
 						columb-3
 					</div>
 				</div>
