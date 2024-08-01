@@ -61,13 +61,23 @@
 					<div class="box w-[200px] flex flex-col p-5 m-5 text-slate-400 border-t border-slate-500">
 						<h6 class="text-slate-300 py-2">Our Developers</h6>
 						<p>Viacheslav.K</p>
-						<p>Yllia.B</p>
+						<p>Illia.B</p>
 					</div>
 				</div>
 
-				<div class="">
-SERVICES HERE ....
+				<div class="logo flex justify-center">
+					<h5 class="text-slate-500 text-xl py-5">FAST NAVIGATION</h5>
 				</div>
+
+				<div class="flex justify-center ">
+					<div class="w-[700px] border-t border-slate-500 p-8 flex flex-col">
+						<a href="#" class="w-[100px] text-white bg-zinc-400 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 my-1">Services</a>
+						<a href="#" class="w-[100px] text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 my-1">Blog</a>
+					</div>
+					
+				</div>
+
+				
 
 			</div>
 		</div>
