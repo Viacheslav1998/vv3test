@@ -1,7 +1,8 @@
 <template>
   <div 
-    class="header">
-    
+    class="header"
+    id="header"
+  >
    	<mainMenu />
     <block />
     <Short 
