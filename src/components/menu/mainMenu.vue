@@ -1,12 +1,12 @@
 <template>
-  <div class="menu flex bg-[url('/short/m8.jpg')] bg-cover">
-		<div class="logo bg-blue-600 max-2xl:w-1/2 2xl:w-1/3 flex justify-end backdrop-blur-sm pl-5">
+  <div class="menu flex bg-[url('/short/m8.jpg')] bg-cover max-lg:flex-col">
+		<div class="logo max-lg:w-full max-lg:justify-center bg-blue-600 max-2xl:w-1/2 2xl:w-1/3 flex justify-end backdrop-blur-sm pl-5">
 			<h2 class="p-5 text-5xl text-slate-50">
 				<span class="bg-lime-300 text-black p-1 rounded">Xp</span> Serious
 			</h2>
 		</div>
-		<div class="menu max-xl:w-4/5 w-3/4">
-			<ul class="flex bg-slate-100 p-8 text-xs bg-opacity-95 max-lg:w-[400px]">
+		<div class="menu  lg:w-3/4">
+			<ul class="flex max-lg:w-full bg-slate-100 p-8 text-xs bg-opacity-95 ">
         <li
           class="pr-4 hover:text-lime-600 cursor-pointer "
 					:class="currentFontSize"
@@ -16,7 +16,7 @@
         </li> 
 			</ul>
 		</div>
-		<div class="space w-1/3 flex bg-slate-100 bg-opacity-95 pt-8 max-lg:w-[800px]">
+		<div class="space w-1/3 flex bg-slate-100 bg-opacity-95 pt-8">
 			<div class="lang">
 				<button id="dropdownUserAvatarButton" data-dropdown-toggle="dropdownAvatar" type="button">
 				  <img src="/images/lang.png" alt="lang">
