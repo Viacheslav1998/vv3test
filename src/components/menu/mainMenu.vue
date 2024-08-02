@@ -5,7 +5,7 @@
 				<span class="bg-lime-300 text-black p-1 rounded">Xp</span> Serious
 			</h2>
 		</div>
-		<div class="menu  lg:w-3/4">
+		<div class="menu lg:w-3/4">
 			<ul class="flex max-lg:w-full bg-slate-100 p-8 text-xs bg-opacity-95 ">
         <li
           class="pr-4 hover:text-lime-600 cursor-pointer "
@@ -16,7 +16,7 @@
         </li> 
 			</ul>
 		</div>
-		<div class="space w-1/3 flex bg-slate-100 bg-opacity-95 pt-8">
+		<div class="space lg:w-1/3 flex bg-slate-100 bg-opacity-95 lg:pt-8 max-lg:px-8">
 			<div class="lang">
 				<button id="dropdownUserAvatarButton" data-dropdown-toggle="dropdownAvatar" type="button">
 				  <img src="/images/lang.png" alt="lang">
