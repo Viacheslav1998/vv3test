@@ -1,6 +1,6 @@
 <template>
   <div class="menu flex bg-[url('/short/m8.jpg')] bg-cover max-lg:flex-col">
-		<div class="logo max-lg:w-full max-lg:justify-center bg-blue-600 max-2xl:w-1/2 2xl:w-1/3 flex justify-end backdrop-blur-sm pl-5">
+		<div class="logo max-lg:w-full max-lg:justify-start bg-blue-600 max-2xl:w-1/2 2xl:w-1/3 flex justify-end backdrop-blur-sm lg:pl-5 max-lg:pl-3">
 			<h2 class="p-5 text-5xl text-slate-50">
 				<span class="bg-lime-300 text-black p-1 rounded">Xp</span> Serious
 			</h2>
