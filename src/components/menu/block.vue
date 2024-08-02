@@ -1,17 +1,17 @@
 <template>
   <div class="wp-block flex justify-center p-8 bg-slate-200 pb-20">
-    <div class="w-[80%] h-[400px] bg-[url('/part2/m15.jpg')]  flex rounded-lg  drop-shadow-md border-4 border-stone-50">
-      <div class="main-block flex justify-between w-full">
-        <div class="left-block w-3/5 bg-zinc-950 m-10 flex flex-col justify-around p-2 bg-opacity-55 rounded-lg">
-          <div class="pl-10">
-            <section class="font-mono text-white">
-              <h1 class="text-4xl">The Big Company Ideas</h1>
-              <h2 class="text-4xl">Useful Technologies</h2>
-              <h3 class="text-4xl">And Evolution</h3>
+    <div class="lg:w-[80%] lg:h-[400px] max-lg:w-[100%] bg-[url('/part2/m15.jpg')] flex rounded-lg  drop-shadow-md border-4 border-stone-50">
+      <div class="main-block flex justify-between w-full max-lg:flex-col">
+        <div class="left-block lg:w-3/5 flex bg-zinc-950 m-10 flex flex-col justify-around p-2 bg-opacity-55 rounded-lg">
+          <div class="lg:pl-10 flex max-lg:justify-center max-lg:py-4">
+            <section class="font-mono text-white max-lg:text-center">
+              <h1 class="text-4xl max-lg:text-2xl">The Big Company Ideas</h1>
+              <h2 class="text-4xl max-lg:text-2xl">Useful Technologies</h2>
+              <h3 class="text-4xl max-lg:text-2xl">And Evolution</h3>
             </section>
           </div>
           <Social 
-            class="pl-9"  
+            class="lg:pl-9 flex max-lg:py-4 max-lg:justify-center"  
           />
         </div>
         
