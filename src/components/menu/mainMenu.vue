@@ -5,7 +5,7 @@
 				<span class="bg-lime-300 text-black p-1 rounded">Xp</span> Serious
 			</h2>
 		</div>
-		<div class="menu lg:w-3/4">
+		<div class="menu lg:w-3/4 max-lg:hidden">
 			<ul class="flex max-lg:w-full bg-slate-100 p-8 text-xs bg-opacity-95 ">
         <li
           class="pr-4 hover:text-lime-600 cursor-pointer "
@@ -16,6 +16,25 @@
         </li> 
 			</ul>
 		</div>
+		<!-- dropdown -->
+		<div class="bg-slate-200 px-8 py-4 lg:hidden">
+			<button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Menu <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+				<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+				</svg>
+			</button>
+			<div id="dropdown" class="w-full z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+				<ul class="px-4 py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+					<li
+					  class="border-b"
+						:class="currentFontSize"
+						v-for="(index) in list"
+					>
+					  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{{ index }}</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
 		<div class="space lg:w-1/3 flex bg-slate-100 bg-opacity-95 lg:pt-8 max-lg:px-8">
 			<div class="lang">
 				<button id="dropdownUserAvatarButton" data-dropdown-toggle="dropdownAvatar" type="button">
