@@ -1,8 +1,8 @@
 <template>
-  <div class="wp-cards p-[32px] flex justify-center bg-zinc-400">
-    <div class="w-[80%]">
-      <div class="wp-space bg-[url('/part2/m24.jpg')] bg-cover bg-stone-300 p-20 my-10">
-        <h4 class="text-5xl text-violet-600">Quick Offers</h4>
+  <div class="wp-cards lg:p-[32px] flex justify-center bg-zinc-400">
+    <div class="w-[80%] max-lg:w-full">
+      <div class=" wp-space bg-[url('/part2/m24.jpg')] bg-cover bg-stone-300 p-20 my-10">
+        <h4 class="text-5xl max-lg:text-3xl text-violet-600">Quick Offers</h4>
         <p 
           :class="sizeFont"
           class="border-b border-slate-900 pl-1"
