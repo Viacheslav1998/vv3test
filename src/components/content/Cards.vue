@@ -73,9 +73,9 @@
         </div>
       </div>
       <!-- title line -->
-      <div class="wp-space w-full bg-[url('/part2/m24.jpg')] bg-cover bg-stone-300 p-20 my-10">
-        <h4 class="text-5xl text-pink-600">Well, if there's plenty of time ...</h4>
-        <p class="border-b border-slate-900 pl-1"  :class="sizeFont">There are other suggestions as well</p>
+      <div class="wp-space max-lg:mx-8 bg-[url('/part2/m24.jpg')] bg-cover bg-stone-300 lg:p-20 max-lg:p-5 p-20 my-10">
+        <h4 class="text-5xl text-pink-600 max-lg:text-3xl">Well, if there's plenty of time ...</h4>
+        <p class="border-b border-slate-900 pl-1" :class="sizeFont">There are other suggestions as well</p>
       </div>
     </div>
 </div>
