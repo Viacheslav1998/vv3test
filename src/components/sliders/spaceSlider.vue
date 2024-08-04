@@ -25,15 +25,43 @@
               </div>
             </div>
           </div>
-          <div class="custom-slider w-full">
-            <Splide :options="{ rewind: true }">
-              <SplideSlide>
-                <img src="/slider/s1.jpg" alt="Sample 1">
-              </SplideSlide>
-              <SplideSlide>
-                <img src="/slider/s2.jpg" alt="Sample 1">
-              </SplideSlide>
-            </Splide>
+          <!-- Carousel -->
+          <div class="flex justify-center">
+            <div id="custom-controls-gallery" class="relative w-full my-5 lg:w-[80%]" data-carousel="slide">
+              <!-- Carousel wrapper -->
+              <div class="relative max-lg:h-[200px] lg:h-[500px] overflow-hidden rounded-lg ">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                  <img src="/slider/s2.jpg" alt="Sample 1" class="max-w-full h-auto">
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                  <img src="/slider/s1.jpg" alt="Sample 2" class="max-w-full h-auto">
+                </div>
+                 <!-- Item 2 -->
+                 <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                  <img src="/slider/s3.jpg" alt="Sample 2" class="max-w-full h-auto">
+                </div>
+              </div>
+              <div class="flex justify-center items-center pt-4">
+                <button type="button" class="flex justify-center items-center me-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+                  <span class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
+                    <svg class="rtl:rotate-180 w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4"/>
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                  </span>
+                </button>
+                <button type="button" class="flex justify-center items-center h-full cursor-pointer group focus:outline-none" data-carousel-next>
+                  <span class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white">
+                    <svg class="rtl:rotate-180 w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                    <span class="sr-only">Next</span>
+                  </span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
