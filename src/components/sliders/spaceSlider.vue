@@ -4,7 +4,7 @@
       <div class="wp-custom-slider bg-[url('/part2/m25.jpg')]">
         <div class="fone bg-gray-500 bg-opacity-70 px-5 py-5">
           <div class="flex justify-center">
-            <div class="lg:p-[32px] lg:w-[80%] custom-content p-10 bg-slate-800 mx-10 p-5  justify-evenly rounded-md bg-opacity-90">
+            <div class="lg:p-[32px] lg:w-[81%] custom-content  bg-slate-800 justify-evenly rounded-md bg-opacity-90">
               <div>
                 <h5 class="text-2xl text-slate-50 flex justify-center">You can share:</h5>
                 <Social

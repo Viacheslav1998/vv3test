@@ -9,9 +9,9 @@
         >we've got some great options for you</p>
       </div>
       <div class="box-cards max-lg:px-8">
-        <div class="flex max-lg:flex-col lg:justify-between">
+        <div class="flex max-lg:flex-col lg:justify-between ">
           <!-- items -->
-          <div class="lg:w-80 rounded overflow-hidden shadow-lg bg-slate-100 max-lg:my-2">
+          <div class="lg:w-80 rounded overflow-hidden shadow-lg bg-slate-100 max-lg:my-2 lg:mx-1">
             <img class="w-full" src="/part2/m12.jpg" alt="Sunset in the mountains">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
@@ -26,7 +26,7 @@
             </div>
           </div>
           <!-- items -->
-          <div class="lg:w-80 rounded overflow-hidden shadow-lg bg-slate-100 max-lg:my-2">
+          <div class="lg:w-80 rounded overflow-hidden shadow-lg bg-slate-100 max-lg:my-2 lg:mx-1">
             <img class="w-full" src="/part2/m23.jpg" alt="Sunset in the mountains">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
@@ -41,7 +41,7 @@
             </div>
           </div>
           <!-- items -->
-          <div class="lg:w-80 rounded overflow-hidden shadow-lg bg-slate-100 max-lg:my-2">
+          <div class="lg:w-80 rounded overflow-hidden shadow-lg bg-slate-100 max-lg:my-2 lg:mx-1">
             <img class="w-full" src="/part2/m10.jpg" alt="Sunset in the mountains">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
@@ -56,7 +56,7 @@
             </div>
           </div>
           <!-- items -->
-          <div class="lg:w-80 rounded overflow-hidden shadow-lg bg-slate-100 max-lg:my-2">
+          <div class="lg:w-80 rounded overflow-hidden shadow-lg bg-slate-100 max-lg:my-2 lg:mx-1">
             <img class="w-full" src="/part2/m16.jpg" alt="Sunset in the mountains">
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
