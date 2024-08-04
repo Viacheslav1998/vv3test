@@ -1,10 +1,10 @@
 <template>
   <div class="py-8 flex justify-center">
-    <div class="w-[100%] bg-amber-400 p-5">
+    <div class="w-[100%] bg-amber-400">
       <div class="wp-custom-slider bg-[url('/part2/m25.jpg')]">
-        <div class="fone bg-gray-500 bg-opacity-70 px-5 py-5">
+        <div class="fone bg-gray-500 bg-opacity-70 lg:px-10 max-lg:px-8 py-5">
           <div class="flex justify-center">
-            <div class="lg:p-[32px] lg:w-[81%] custom-content  bg-slate-800 justify-evenly rounded-md bg-opacity-90">
+            <div class="lg:p-[32px] max-lg:py-5 lg:w-[81%] max-lg:w-full custom-content bg-slate-800 justify-evenly rounded-md bg-opacity-90">
               <div>
                 <h5 class="text-2xl text-slate-50 flex justify-center">You can share:</h5>
                 <Social
