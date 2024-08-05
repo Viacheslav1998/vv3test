@@ -1,9 +1,9 @@
 <template>
-  <div class="wp-cards p-[32px] flex justify-center bg-zinc-400">
-    <div class="w-[80%]">
+  <div class="wp-cards lg:p-[32px] flex justify-center bg-zinc-400">
+    <div class="lg:w-[80%]">
       <!-- title line -->
-      <div class="wp-space w-full bg-[url('/part2/m24.jpg')] bg-cover bg-stone-300 p-20 mt-20 mb-20">
-        <h4 class="text-5xl text-orange-600">This is where you'll get to know the company.</h4>
+      <div class="wp-space max-lg:mx-8 bg-[url('/part2/m24.jpg')] bg-cover bg-stone-300 lg:p-20 max-lg:p-5 my-5">
+        <h4 class="text-5xl max-lg:text-3xl text-orange-600">This is where you'll get to know the company.</h4>
         <p class="border-b border-slate-900 pl-1" :class="sizeFont">History, Influence, Success ...</p>
       </div>
       <div class="p-[50px] overflow-auto h-[400px] bg-cover bg-fixed bg-center bg-no-repeat shadow-lg"
