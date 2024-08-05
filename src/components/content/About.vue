@@ -7,7 +7,7 @@
         <p class="border-b border-slate-900 pl-1" :class="sizeFont">History, Influence, Success ...</p>
       </div>
 
-      <div class="lg:p-[50px] overflow-auto h-[400px] bg-cover bg-fixed bg-center bg-no-repeat shadow-lg"
+      <div class="lg:p-[50px] mb-4 overflow-auto h-[400px] bg-cover bg-fixed bg-center bg-no-repeat shadow-lg"
         style="background-image:url('/part2/about.jpg');">
         <div class="mt-40 ">
           <div class="bg-white p-4 sm:p-8 w-full">

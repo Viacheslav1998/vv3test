@@ -1,8 +1,8 @@
 <template>
-  <div class="tech-main p-[32px] flex justify-center ">
-    <div class="w-[80%]">  
-      <div class="wp-space w-full bg-[url('/part2/m24.jpg')] bg-cover bg-stone-300 p-20 mt-20">
-        <h4 class="text-5xl text-green-600">Technologies applicable here.</h4>
+  <div class="tech-main lg:p-[32px] flex justify-center bg-slate-200 ">
+    <div class="lg:w-[80%]">  
+      <div class="wp-space max-lg:mx-8 bg-[url('/part2/m24.jpg')] bg-cover bg-stone-300 lg:p-20 max-lg:p-5 my-5">
+        <h4 class="text-5xl max-lg:text-3xl text-green-600">Technologies applicable here.</h4>
         <p class="border-b border-slate-900 pl-1" :class="sizeFont">Electricity, water, garden, nature, light</p>
       </div>
       <div class="title-description bg-teal-500 px-20  py-10 mt-10">
