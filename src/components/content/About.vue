@@ -6,10 +6,11 @@
         <h4 class="text-5xl max-lg:text-3xl text-orange-600">This is where you'll get to know the company.</h4>
         <p class="border-b border-slate-900 pl-1" :class="sizeFont">History, Influence, Success ...</p>
       </div>
-      <div class="p-[50px] overflow-auto h-[400px] bg-cover bg-fixed bg-center bg-no-repeat shadow-lg"
+
+      <div class="lg:p-[50px] overflow-auto h-[400px] bg-cover bg-fixed bg-center bg-no-repeat shadow-lg"
         style="background-image:url('/part2/about.jpg');">
-        <div class="mt-40">
-          <div class="bg-white p-4 sm:p-8">
+        <div class="mt-40 ">
+          <div class="bg-white p-4 sm:p-8 w-full">
             <div
               class="font-inter text-2xl font-extrabold tracking-tight text-black">
               About our company
