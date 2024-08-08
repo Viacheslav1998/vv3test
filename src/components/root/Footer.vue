@@ -7,18 +7,18 @@
 					<h5 class="text-gray-500 text-xl pb-5">LOGO</h5>
 				</div>
 
-				<div class="flex justify-center ">
+				<div class="flex justify-center bg-slate-900 ">
 					<div>
-					  <img src="/short/1.jpg" alt="logo" class="size-32 max-md:size-24 max-sm:size-16 rounded-lg m-1 shadow-lg">
+					  <img src="/short/1.jpg" alt="logo" class="size-32 max-md:size-24 max-sm:w-[70%] max-sm:h-[auto] rounded-lg m-1 shadow-lg">
 					</div>
 					<div>
-					  <img src="/short/2.jpg" alt="logo" class="size-32 max-md:size-24 max-sm:size-16 rounded-lg m-1 shadow-lg">
+					  <img src="/short/2.jpg" alt="logo" class="size-32 max-md:size-24 max-sm:w-[70%] max-sm:h-[auto] rounded-lg m-1 shadow-lg">
 					</div>
 					<div>
-					  <img src="/short/3.jpg" alt="logo" class="size-32 max-md:size-24 max-sm:size-16 rounded-lg m-1 shadow-lg">
+					  <img src="/short/3.jpg" alt="logo" class="size-32 max-md:size-24 max-sm:w-[70%] max-sm:h-[auto] rounded-lg m-1 shadow-lg">
 					</div>
 					<div>
-					  <img src="/short/4.jpg" alt="logo" class="size-32 max-md:size-24 max-sm:size-16 rounded-lg m-1 shadow-lg">
+					  <img src="/short/4.jpg" alt="logo" class="size-32 max-md:size-24 max-sm:w-[70%] max-sm:h-[auto] rounded-lg m-1 shadow-lg">
 					</div>
 				</div>	
 
