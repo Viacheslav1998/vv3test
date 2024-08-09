@@ -7,17 +7,17 @@
 					<h5 class="text-gray-500 text-xl pb-5">LOGO</h5>
 				</div>
 
-				<div class="flex justify-center bg-slate-900 ">
-					<div>
+				<div class="flex justify-center">
+					<div class="flex justify-center">
 					  <img src="/short/1.jpg" alt="logo" class="size-32 max-md:size-24 max-sm:w-[70%] max-sm:h-[auto] rounded-lg m-1 shadow-lg">
 					</div>
-					<div>
+					<div class="flex justify-center">
 					  <img src="/short/2.jpg" alt="logo" class="size-32 max-md:size-24 max-sm:w-[70%] max-sm:h-[auto] rounded-lg m-1 shadow-lg">
 					</div>
-					<div>
+					<div class="flex justify-center">
 					  <img src="/short/3.jpg" alt="logo" class="size-32 max-md:size-24 max-sm:w-[70%] max-sm:h-[auto] rounded-lg m-1 shadow-lg">
 					</div>
-					<div>
+					<div class="flex justify-center">
 					  <img src="/short/4.jpg" alt="logo" class="size-32 max-md:size-24 max-sm:w-[70%] max-sm:h-[auto] rounded-lg m-1 shadow-lg">
 					</div>
 				</div>	
@@ -76,14 +76,8 @@
 						<a v-scroll-to="'#header'" class="w-[24px] py-2 hover:opacity-75">
 							<img src="/images/up2.png" alt="up">
 						</a>
-
-						
 					</div>
-					
 				</div>
-
-				
-
 			</div>
 		</div>
 
