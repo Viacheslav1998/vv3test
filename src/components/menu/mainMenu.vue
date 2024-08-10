@@ -6,13 +6,9 @@
 			</h2>
 		</div>
 		<div class="menu lg:w-3/4 max-lg:hidden">
-			<ul class="flex max-lg:w-full bg-slate-100 p-8 text-xs bg-opacity-95 ">
-        <li
-          class="pr-4 hover:text-lime-600 cursor-pointer "
-					:class="currentFontSize"
-          v-for="(index) in list"
-        >
-          {{ index }}
+			<ul class="flex max-lg:w-full bg-slate-100 p-11 text-xs bg-opacity-95 ">
+        <li class="pr-4 hover:text-lime-600 cursor-pointer">
+       
         </li> 
 			</ul>
 		</div>
