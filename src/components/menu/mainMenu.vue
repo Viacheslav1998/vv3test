@@ -88,12 +88,18 @@ import { initFlowbite } from 'flowbite';
 import { ref, onMounted, watchEffect  } from 'vue';
 import { createMemoryHistory, createRouter } from 'vue-router';
 import { useStore } from 'vuex';
+
 // components pages
 import BlogView from '../pages/blogView.vue';
 
 const routes = [
 	{ path: '/', component: BlogView },
 ];
+
+const router = createRouter({
+	history: createMemoryHistory(),
+	routes,
+});
 
 const store = useStore();
 const currentFontSize = ref(store.getters.getCurrentFontSize);
