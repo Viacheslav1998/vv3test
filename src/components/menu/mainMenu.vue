@@ -5,7 +5,7 @@
 				<span class="bg-lime-300 text-black p-1 rounded">Xp</span> Serious
 			</h2>
 		</div>
-		<!-- <div class="menu lg:w-3/4 max-lg:hidden">
+		<div class="menu lg:w-3/4 max-lg:hidden">
 			<ul class="flex max-lg:w-full bg-slate-100 p-8 text-xs bg-opacity-95 ">
         <li
           class="pr-4 hover:text-lime-600 cursor-pointer "
@@ -15,14 +15,7 @@
           {{ index }}
         </li> 
 			</ul>
-		</div> -->
-		<div class="menu lg:w-3/4 max-lg:hidden">
-			<ul class="flex max-lg:w-full bg-slate-100 p-8 text-xs bg-opacity-95">
-				<li class="pr-4 hover:text-lime-600 cursor-pointer">
-					<a href="/blog">Blog</a>
-				</li>
-			</ul>
-		</div>	
+		</div>
 		<!-- dropdown -->
 		<div class="bg-slate-200 px-8 py-4 lg:hidden">
 			<button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="button">Menu <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">

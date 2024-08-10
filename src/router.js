@@ -1,3 +1,5 @@
+
+// it was a sample, but not used now
 import { createMemoryHistory, createRouter } from 'vue-router';
 
 // components pages

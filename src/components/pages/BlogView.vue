@@ -1,5 +1,3 @@
 <template>
-  <div>
-    this is a subsidiary blog
-  </div>
+   <p>it was a sample vue-router</p>
 </template>
