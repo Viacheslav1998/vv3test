@@ -7,4 +7,5 @@ which you can download and open on your device
 ### I'm using vite.
 
 - [x] git clone
+- [x] npm install
 - [x] npm run dev
