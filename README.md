@@ -9,6 +9,6 @@ which you can download and open on your device
 
 ## how run ?
 - [x] git clone
-- [x] cd frontEnd -> 
+- [x] cd frontend
 - [x] npm install
 - [x] npm run dev
