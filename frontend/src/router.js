@@ -3,7 +3,7 @@
 import { createMemoryHistory, createRouter } from 'vue-router';
 
 // components pages
-import BlogView from './components/pages/blogView.vue';
+import BlogView from './components/pages/BlogView.vue';
 
 const routes = [
 	{ path: '/blog', component: BlogView },

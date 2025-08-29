@@ -13,7 +13,7 @@
 
 <script setup>
   import mainMenu from '../menu/mainMenu.vue';
-  import block from '../menu/Block.vue';
+  import block from '../menu/block.vue';
   import Short from '../content/Short.vue';
   import { computed } from 'vue';
   import { useCustomStore } from '../../hooks/useCustomStore';
